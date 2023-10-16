@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    color: #ffff;
+    font-size: 20px;
+    line-height: 27px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+}
+/* header and navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+
+/* banner style */
+.banner-container{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    line-height: 115px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
