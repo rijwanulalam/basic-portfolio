@@ -145,8 +145,6 @@ tr td{
     text-align: left;
     margin-bottom: 45px;
 }
-
-
 .resume-title{
     margin: 30px 0 10px;
 }
@@ -159,4 +157,36 @@ tr td{
     padding: 30px 0;
     line-height: 27px;
     color: #757575;
+}
+/* footer styles */
+footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    padding: 130px 280px;
+}
+.footer-container a{
+    text-decoration: none;
+}
+.footer-container img{
+    margin-right: 20px;
+}
+.footer-description{
+    margin-right: 100px;
+}
+.footer-description{
+    margin-bottom: 30px;
+}
+input[type="text"], input[ type="email"], textarea{
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffff;
+    
+}
+input{
+    height: 28px;
 }
